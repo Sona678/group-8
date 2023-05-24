@@ -17,11 +17,13 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyCZ-xrXqD5D19Snauto-Fx_nLD7PLrBXGM",
-        appId: "1:585119731880:web:eca6e4b3c42a755cee329d",
-        messagingSenderId: "585119731880",
-        projectId: "instagram-clone-4cea4",
-        storageBucket: 'instagram-clone-4cea4.appspot.com'
+       apiKey: 'AIzaSyAZ9WyDgNrP6jO-NIoCWJlWEKehzMtYBjo',
+    appId: '1:396573352249:web:8f63dad05ed3d546de08e8',
+    messagingSenderId: '396573352249',
+    projectId: 'insta-clone-4fe40',
+    authDomain: 'insta-clone-4fe40.firebaseapp.com',
+    storageBucket: 'insta-clone-4fe40.appspot.com',
+    measurementId: 'G-6KG2MSD8XK',
       ),
     );
   } else {
